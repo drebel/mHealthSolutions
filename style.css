@@ -13,3 +13,35 @@ section{
 .half-height{
     min-height: 50vh;
 }
+
+#home {
+    background-image: url(./assets/tree-mist-fog-cloudy-34fe5410d4122039c2d2dd16229b9281.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.btn-primary {
+    /* #d2a900  */
+    /* #6b001f */
+    /* #005C6E */
+    /* #4d004d  */
+    /* #d94c00 */
+    /* background-color: #d2a900;
+    border-color: #d2a900; */
+    /* background-color: #6b001f;
+    border-color: #6b001f; */
+    /* background-color: #005C6E;
+    border-color: #005C6E; */
+    /* background-color: #4d004d;
+    border-color: #4d004d; */
+    /* background-color: #d94c00;
+    border-color: #d94c00; */
+}
+
+.navbar {
+    background: transparent ;
+}
+nav {
+    background: transparent ;
+}
