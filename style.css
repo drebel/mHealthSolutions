@@ -1,9 +1,46 @@
-body{
-    font-family: montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,
+.header-1{
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -4px;
+    line-height: 130px;
+    text-transform: none;
+    color: #2A292B;
+}
+.content-1{
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-transform: none;
 }
 
-section{
-    max-width: 1120px;
+.nav-font {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+.nav-brand {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: none;
+}
+/* body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+.contentArea{
+    max-width: 1920px;
 }
 
 .full-height{
