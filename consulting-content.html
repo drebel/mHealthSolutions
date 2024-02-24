@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M Health</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="">
-    <header>
-      <!-- <div id="navbar-container"></div> -->
-      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">M Health</a>
+          <a class="navbar-brand nav-brand" href="index.html">M Health</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto nav-font">
               <li class="nav-item mx-auto">
                 <a class="nav-link mx-auto" href="index.html">Home</a>
               </li>
@@ -52,87 +50,98 @@
           </div>
         </div>
       </nav>
-    </header>
+    <!-- <div id="navbar-container"></div> -->
+    <!--#include virtual="./fragments/navbar.html" -->
+  </header>
     <main >
-      <!-- <div class="d-flex flex-column justify-content-center align-items-center"> -->
-        <div class="jumbotron half-height pt-5 d-flex flex-column justify-content-center">
-          <h1 class="display-5 mx-4 pt-2">Consulting and Content</h1>
-          <!-- <p class="lead mx-4">optional text here</p> -->
-          <hr class="my-4">
+      <section id="consulting-header" class="quarter-height">
+        <div class="contentArea quarter-height mx-auto d-flex align-items-center text-dark">
+          <h1 class="header-2">Consulting and Content</h1>
         </div>
-        <section class="mx-auto p-5">
-          <p>With over a decade of experience working with clients in fitness and healthcare, I am excited to share my domain expertise and passion for technology through consulting and content creation. I partner with brands to perform a variety of services including:
-          </p>
-          <ul>
-            <li>Article Writing and Editing</li>
-            <li>Clinical Reviews</li>
-            <li>Digital Content Creation</li>
-            <li>Feature Prioritization</li>
-            <li>Product Assessments</li>
-
-          </ul>
-          <a href="https://www.upwork.com/freelancers/~0184dc0b22951138f3">
-            <h5>Browse My Upwork Profile</h5>
-          </a>
+      </section>
+      <section class="mx-auto p-5 bg-dark text-light quarter-height content-2">
+        <div class="contentArea mx-auto">
+          <div class="containter">
+            <div class="row m-0 g-3">
+              <div class="col-12 col-md-6 ">
+                <p>With over a decade of experience working with clients in fitness and healthcare, I am excited to share my domain expertise and passion for technology through consulting and content creation.</p>  
+                <a href="https://www.upwork.com/freelancers/~0184dc0b22951138f3" class="btn btn-outline-light rounded-5 header-2 btn-lg d-none d-md-block">Browse My Upwork Profile</a>
+              </div>
+              
+              <div class="col-12 col-md-6">
+                <p>I partner with brands to perform a variety of services including:</p>
+                <ul>
+                  <li>Article Writing and Editing</li>
+                  <li>Clinical Reviews</li>
+                  <li>Digital Content Creation</li>
+                  <li>Feature Prioritization</li>
+                  <li>Product Assessments</li>
+                </ul>
+              </div>
+              <a href="https://www.upwork.com/freelancers/~0184dc0b22951138f3" class="btn btn-outline-light rounded-5 header-2 btn-lg d-md-none text-center">Browse My Upwork Profile</a>
+            </div>
+          </div>
+        </div>  
+        
 
       </section>
-      <section class="mx-auto  bg-light">
-        <h2>Featured In</h2>
-        <div class=" d-flex justify-content-center flex-wrap">
-          <div class="card m-3" style="width: 24rem;">
-            <a href="https://www.self.com/gallery/push-pull-workout" target="_blank">
-              <img class="card-img-top" src="./assets/bent-over-row-cookie.webp" alt="Card image cap">
-            </a>
-            <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">SELF</h6>
-              <h5 class="card-title">A Push-Pull Workout to Build Strength Across Your Entire Body</h5>
-              <p class="card-text">There are so many different workout splits out there, but there’s one method of programming we’d just like to call special attention to: the push-pull workout.</p>
-              <a href="https://www.self.com/gallery/push-pull-workout" target="_blank" class="btn btn-primary">Read Full Article</a>
+      <section class="bg-secondary">
+        <div class="contentArea mx-auto">
+          <h2 class="header-2 text-light text-center">Featured In</h2>
+          <div class=" d-flex justify-content-center flex-wrap">
+            <div class="card m-3" style="width: 24rem;">
+              <a href="https://www.self.com/gallery/push-pull-workout" target="_blank">
+                <img class="card-img-top" src="./assets/bent-over-row-cookie1.jpg" alt="Card image cap">
+              </a>
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-body-secondary">SELF</h6>
+                <h5 class="card-title">A Push-Pull Workout to Build Strength Across Your Entire Body</h5>
+                <p class="card-text">There are so many different workout splits out there, but there’s one method of programming we’d just like to call special attention to: the push-pull workout.</p>
+                <a href="https://www.self.com/gallery/push-pull-workout" target="_blank" class="btn btn-outline-dark rounded-5 content-2 d-block">Read Full Article</a>
+              </div>
             </div>
-          </div>
-          <div class="card m-3" style="width: 24rem;">
-            <a href="https://www.livestrong.com/article/209866-exercises-for-seniors-to-get-up-from-a-chair-to-standing/" target="_blank">
-              <img class="card-img-top" src="./assets/getty_988ea33fbd1143998991509bdf5ae85e.webp" alt="Card image cap">
-            </a>
-            <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">LIVESTRONG</h6>
-              <h5 class="card-title">4 Exercises to Help You More Easily Get Up From a Chair to Standing </h5>
-              <p class="card-text">Placing a book on a high shelf, bending over to pick something up, getting up from a chair — there are a few daily motions that can feel a lot more challenging as we age.</p>
-              <a href="https://www.livestrong.com/article/209866-exercises-for-seniors-to-get-up-from-a-chair-to-standing/" target="_blank" class="btn btn-primary">Read Full Article</a>
+            <div class="card m-3" style="width: 24rem;">
+              <a href="https://www.livestrong.com/article/209866-exercises-for-seniors-to-get-up-from-a-chair-to-standing/" target="_blank">
+                <img class="card-img-top" src="./assets/getty_988ea33fbd1143998991509bdf5ae85e.webp" alt="Card image cap">
+              </a>
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-body-secondary">LIVESTRONG</h6>
+                <h5 class="card-title">4 Exercises to Help You More Easily Get Up From a Chair to Standing </h5>
+                <p class="card-text">Placing a book on a high shelf, bending over to pick something up, getting up from a chair — there are a few daily motions that can feel a lot more challenging as we age.</p>
+                <a href="https://www.livestrong.com/article/209866-exercises-for-seniors-to-get-up-from-a-chair-to-standing" target="_blank" class="btn btn-outline-dark rounded-5 content-2 d-block">Read Full Article</a>
+              </div>
             </div>
-          </div>
-          <div class="card m-3" style="width: 24rem;">
-            <a href="https://www.popsugar.com/fitness/causes-hip-pain-while-running-47810702" target="_blank">
-              <img class="card-img-top" src="./assets/tmp_ETA8kv_6b7f9febff1aefc6_GettyImages-925540998.webp" alt="Card image cap">
-            </a>
-            <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-body-secondary">POPSUGAR</h6>
-              <h5 class="card-title">What Could Be Behind Your Hip Pain While Running, According to Physical Therapists</h5>
-              <p class="card-text">After years of listening to my body during morning runs, long walks, and half marathons, I have a decent understanding of what's behind my runner's knee.</p>
-              <a href="https://www.popsugar.com/fitness/causes-hip-pain-while-running-47810702" target="_blank" class="btn btn-primary">Read Full Article</a>
+            <div class="card m-3" style="width: 24rem;">
+              <a href="https://www.popsugar.com/fitness/causes-hip-pain-while-running-47810702" target="_blank">
+                <img class="card-img-top" src="./assets/tmp_ETA8kv_6b7f9febff1aefc6_GettyImages-925540998.webp" alt="Card image cap">
+              </a>
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-body-secondary">POPSUGAR</h6>
+                <h5 class="card-title">What Could Be Behind Your Hip Pain While Running, According to Physical Therapists</h5>
+                <p class="card-text">After years of listening to my body during morning runs, long walks, and half marathons, I have a decent understanding of what's behind my runner's knee.</p>
+                <a href="https://www.popsugar.com/fitness/causes-hip-pain-while-running-47810702" target="_blank" class="btn btn-outline-dark rounded-5 content-2 d-block">Read Full Article</a>
+              </div>
             </div>
-          </div>
-          <div class="card m-3" style="width: 24rem;">
-            <a href="https://www.thehealthy.com/exercise/sleeper-stretch/" target="_blank">
-              <img class="card-img-top" src="./assets/sleeper-stretch-gif01.gif" alt="Card image cap">
-            </a>
+            <div class="card m-3" style="width: 24rem;">
+              <a href="https://www.thehealthy.com/exercise/sleeper-stretch/" target="_blank">
+                <img class="card-img-top" src="./assets/sleeper-stretch-gif01.gif" alt="Card image cap">
+              </a>
               <div class="card-body">
                 <h6 class="card-subtitle mb-2 text-body-secondary">The Healthy</h6>
                 <h5 class="card-title">How to Do a Sleeper Stretch for Better Shoulder Range of Motion </h5>
-                <p class="card-text">If you sit at a computer most of the day, look down at your phone often, or generally stand with shoulders rounded forward, you probably have some tightness in your upper body.</p>
-                <a href="https://www.thehealthy.com/exercise/sleeper-stretch/" target="_blank" class="btn btn-primary">Read Full Article</a>
+                <p class="card-text">If you sit at a computer most of the day, look down at your phone often, or generally stand with shoulders rounded forward, you probably have some tightness in your upper body. Doing a sleeper stretch daily can help.</p>
+                <a href="https://www.thehealthy.com/exercise/sleeper-stretch/" target="_blank" class="btn btn-outline-dark rounded-5 content-2 d-block">Read Full Article</a>
               </div>
+            </div>
           </div>
         </div>
       </section>
-
-
-      <div class="jumbotron half-height py-5 bg-light text-center d-flex flex-column align-items-center justify-content-center">
-        <h2 class="text-center">Looking for something unique?</h2>
-        <h3>Let’s chat about your goals and how I can help</h3>
-        <a class="btn btn-primary m-2 btn-lg" href="contact.html" role="button">Submit an Inquiry</a>
-      </div>
-        
+      <section id="consulting-CTA" class="half-height p-5 d-flex align-items-center justify-content-center">
+        <div class="contentArea d-flex flex-column justify-content-center align-items-center">
+          <h2 class="header-2 text-light text-center">Looking for something unique?</h2>
+          <a class="rounded-5 btn btn-dark m-2 btn-lg header-2" href="contact.html" role="button">Submit an Inquiry</a>
+        </div>
+      </section>       
     </main>
     <div id="footer-containter"></div>
     <script src="fragments.js"></script>
