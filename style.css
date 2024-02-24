@@ -71,6 +71,16 @@
     background-size: cover;
     background-position: center;
 }
+#PT-header {
+    background-image: url(./assets/pexels-yan-krukau-5794024.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#PT-CTA {
+    background-image: url(./assets/pexels-karolina-grabowska-6629527.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 .navbar {
