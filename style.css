@@ -33,6 +33,15 @@
     line-height: 28px;
     text-transform: none;
 }
+.content-2{
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-transform: none;
+}
 
 .nav-font {
     font-family: Inter, sans-serif;
@@ -81,6 +90,16 @@
     background-size: cover;
     background-position: center;
 }
+#consulting-header {
+    background-image: url(./assets/pexels-karolina-grabowska-4498574\(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+#consulting-CTA {
+    background-image: url(./assets/pexels-judit-peter-1766604.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 .navbar {
@@ -92,4 +111,8 @@ nav {
 
 section {
     padding:1rem
+}
+
+.card{
+    border: none;
 }
