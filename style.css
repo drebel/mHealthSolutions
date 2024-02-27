@@ -7,9 +7,30 @@
     text-transform: none;
     color: #2A292B;
 }
+
 .header-2{
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     font-style: normal;
+    font-weight: bold;
+    letter-spacing: -1px;
+    /* line-height: 130px; */
+    text-transform: none;
+}
+
+.header-3{
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+    /* line-height: 130px; */
+    text-transform: none;
+}
+
+.header-4{
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 2rem;
     font-weight: bold;
     letter-spacing: -1px;
     /* line-height: 130px; */
@@ -24,18 +45,10 @@
     line-height: 28px;
     text-transform: none;
 }
+
 .content-2{
     font-family: Inter, sans-serif;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: normal;
-    line-height: 28px;
-    text-transform: none;
-}
-.content-2{
-    font-family: Inter, sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 300;
     letter-spacing: normal;
@@ -84,33 +97,53 @@
     background-size: cover;
     background-position: center;
 }
+
+#about-header {
+    background-image: url(./assets/forest_birdseye.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#about-CTA {
+    background-image: url(./kumo/daisy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 #PT-header {
-    background-image: url(./assets/pexels-yan-krukau-5794024.jpg);
+    background-image: url(./assets/sticks.jpg);
     background-size: cover;
     background-position: center;
 }
+
 #PT-CTA {
-    background-image: url(./assets/pexels-karolina-grabowska-6629527.jpg);
+    background-image: url(./kumo/tennis.jpg);
     background-size: cover;
     background-position: center;
 }
+
 #consulting-header {
     background-image: url(./assets/pexels-karolina-grabowska-4498574\(1\).jpg);
     background-size: cover;
     background-position: center;
 }
+
 #consulting-CTA {
     background-image: url(./assets/pexels-judit-peter-1766604.jpg);
     background-size: cover;
     background-position: center;
 }
 
-
-.navbar {
-    background: transparent ;
+#FAQ-CTA {
+    background-image: url(./kumo/lilac.jpg);
+    background-size: cover;
+    background-position: center;
 }
-nav {
-    background: transparent ;
+
+#contact-CTA {
+    background-image: url(./kumo/fall.jpg);
+    background-size: cover;
+    background-position: 0 40%;
 }
 
 section {
@@ -121,3 +154,22 @@ section {
     border: none;
 }
 
+.dark-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.light-shadow {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.box-light-shadow {
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+
+.box-dark-shadow {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#contact-submit {
+    width: 100%;
+}
